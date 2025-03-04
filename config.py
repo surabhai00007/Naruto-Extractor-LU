@@ -1,20 +1,19 @@
 import os
 
 class Config(object):
-    BOT_TOKEN = "7982396596:AAGZJZj1Gqc6XV46-9nXl-af1mhwAnLV6PU"
-    API_ID = 28094744
-    API_HASH = "a75af4285edc7747c57bb19147ca0b9b"
-    ADMIN = '5680454765'.split(',')
+    BOT_TOKEN = "7876136165:AAEe8anReqFizU3fBNSaxkvBQoNHVU-NDis"
+    API_ID = 22594398
+    API_HASH = "3a2408d97d6a222d87766dac2da302df"
+    ADMIN = '5357048091'.split(',')
     ADMIN_ID = [int(id) for id in ADMIN]
-    DB_URL = "mongodb+srv://tmglcd:kI1UijMr2jJXyOXY@cluster0.unjzi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    DB_URL = "mongodb+srv://Janubapu:fjZ5KU4gSVFNxRDa@cluster0.ld2ya.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     DB_NAME = "WARRIOR_EXTRACTOR"
-    TXT_LOG = -10023125
-    AUTH_LOG = -10023802
-    HIT_LOG = -100247596
-    DRM_DUMP = -10024562
-    CHANNEL = -10022752
-    CH_URL = "https://t.me/+vX1JFN-Mzhl"
+    TXT_LOG = -1002166446304
+    AUTH_LOG = -1002166446304
+    HIT_LOG = -1002166446304
+    DRM_DUMP = -1002166446304
+    CHANNEL = -1002417474258
+    CH_URL = "https://t.me/mytestingbyanni"
     OWNER = "https://t.me/mrcraacker"
     THUMB_URL = "https://vault.pictures/media/images/b9/ad/12/b9ad123d95cd49465fcb954d.jpg" #Replace by with your Thumb URL
     HOST = "https://drm-api-five.vercel.app"
-
