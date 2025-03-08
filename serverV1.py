@@ -1,4 +1,4 @@
-from Database/getserver import getserver
+from Database.getserver import getserver
 
 def Connect_Server():
     getserver.connect_v1()
