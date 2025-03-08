@@ -1,13 +1,13 @@
 import os
 
 class Config(object):
-    BOT_TOKEN = ""
-    API_ID = 
-    API_HASH = ""
+    BOT_TOKEN = "7472777466:AAHdCsYtZpPnoMv67OL5_Hv2yjvy2Nz8jEg"
+    API_ID = 22581733
+    API_HASH = "1db7bdcf908100cc641c6a5276765c3d"
     ADMIN = '6530997270'.split(',')
     ADMIN_ID = [int(id) for id in ADMIN]
-    DB_URL = ""
-    DB_NAME = ""
+    DB_URL = "mongodb+srv://neoayush444:3kuwGf9jKicbDxvT@cluster0.f9vq7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    DB_NAME = "Crack_Jack"
     TXT_LOG = -1002294532244
     AUTH_LOG = -1002294532244
     HIT_LOG = -1002294532244
