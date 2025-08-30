@@ -1,18 +1,37 @@
 {
-    "name": "Master-Extractor",
-    "description": "Master Extractor Bot for Telegram, built with Pyrogram.",
-    "repository": "https://github.com/Last-Update-Oct",
+    "name": "Naruto-Extractor",
+    "description": "Extractor Bot for Telegram, built with Pyrogram.",
+    "repository": "https://github.com/surabhai00007/Naruto-Extractor-LU",
     "keywords": [
         "pyrogram",
-        "docker"
+        "telegram",
+        "extractor",
+        "bot"
     ],
     "stack": "container",
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "standard-2x"
+            "size": "free"
         }
     },
-    "addons": [],
-    "buildpacks": []
+    "env": {
+        "API_ID": {
+            "description": "Your Telegram API ID (from https://my.telegram.org/apps).",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your Telegram API HASH (from https://my.telegram.org/apps).",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token from @BotFather.",
+            "required": true
+        },
+        "OWNER": {
+            "description": "Your Telegram user ID (for bot admin).",
+            "required": true
+        }
+    },
+    "addons": []
 }
